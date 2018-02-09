@@ -129,7 +129,7 @@ public class HomeActivity extends AppCompatActivity {
         mHomeToolbar = findViewById(R.id.home_toolbar);
 
         setSupportActionBar(mHomeToolbar);
-        getSupportActionBar().setTitle("iRemember");
+        getSupportActionBar().setTitle("jini");
 
         // ------------ WORKING WITH GPS ---------
         mGpsBtn.setOnClickListener(new View.OnClickListener() {
