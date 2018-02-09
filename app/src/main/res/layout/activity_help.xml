@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="io.aloketewary.iremember.HelpActivity">
+
+    <include
+        android:id="@+id/help_toolbar"
+        layout="@layout/app_toolbar"
+        android:fontFamily="@font/sniglet" />
+
+    <ExpandableListView
+        android:id="@+id/expandableListView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="@android:color/darker_gray"
+        android:dividerHeight="0.5dp"
+        android:indicatorRight="?android:attr/expandableListPreferredItemIndicatorRight" />
+
+
+</LinearLayout>
