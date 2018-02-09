@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name" translatable="false">iRemember</string>
+    <string name="app_name" translatable="false">jini</string>
     <string name="app_about_text">
         Designed to provide a solution to record &amp; track your car in parking lot.
         \n- No need to remember /click the button

@@ -23,7 +23,7 @@ public class AboutActivity extends AppCompatActivity {
 
         mAboutToolbar = findViewById(R.id.about_toolbar);
         setSupportActionBar(mAboutToolbar);
-        getSupportActionBar().setTitle("About iRemember");
+        getSupportActionBar().setTitle("About jini");
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
         mAlokeTwitter = findViewById(R.id.aloke_twitter);
